@@ -1,0 +1,39 @@
+import React, {useEffect, useState} from 'react';
+import './firebase/config';
+import {useParams} from 'react-router-dom';
+
+import { getFirestore, getDoc, doc  } from 'firebase/firestore';
+
+/*
+(No funciona(dice que la funcion useState se usa del lado del cliente))
+export const Aplicacion = () => {
+
+    //esto da problemas para el componente cliente?
+    const [data, setData] = useState({});
+    const {detalleId} = useParams(); 
+
+
+    useEffect(()=>{
+
+        const querydb = getFirestore();
+        const queryDoc = doc(querydb, 'datos', '9y2rwWJjcOiWMGTonVHv');
+        getDoc(queryDoc)
+        .then(res => console.log(res.data));
+      },[])
+
+
+    }
+
+return (
+
+<div><div/>
+
+);
+
+
+
+
+
+export default Aplicacion;
+
+*/
