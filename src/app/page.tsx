@@ -1,27 +1,28 @@
 import Image from 'next/image'
 import Formulario from './components/formulario'
-
 import React from 'react';
-import './firebase/config';
+import Aplicacion from './components/Aplicacion';
+import Form2datos from './components/formulariodatos';
+import Form_datos from './components/formulario';
+import MyForm from './components/form3';
 
-import { getFirestore, getDoc, doc  } from 'firebase/firestore';
 
 
 export default function Home() {
 
 
   return (
-  <div>
     
-    <Formulario/>
-  
+  <div>
    
+   
+   <Aplicacion></Aplicacion>
     
     
 
   </div>
   
-  
+ 
   
   )
 }

@@ -22,7 +22,7 @@ export default function Form_datos() {
             required
           />
 
-          <label htmlFor="numero_reps">numero de repeticiónes</label>
+          <label htmlFor="numero_reps">numero de repeticiónes(segundos)</label>
           <input
             type="number"
             id="numero_reps"
@@ -100,6 +100,7 @@ export default function Form_datos() {
           <button
             id="Send"
             type="submit">
+             
             Enviar datos
           </button>
         </div>
